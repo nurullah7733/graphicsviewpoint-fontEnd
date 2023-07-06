@@ -34,7 +34,7 @@ const MainSlider = () => {
             alt="Jewellery Retouching and Color Correction Service"
             width={6000}
             height={3000}
-            src="/assets/img/Slider/gvp-Jewellery-Retouching.jpg"
+            src="/assets/img/Slider/gvp-Jewellery-Retouching.webp"
           />
 
           <div>
@@ -61,7 +61,7 @@ const MainSlider = () => {
             alt="Photo High End Retouching Service"
             width={6000}
             height={3000}
-            src="/assets/img/Slider/gvp-High-End-Retouching.jpg"
+            src="/assets/img/Slider/gvp-High-End-Retouching.webp"
           />
           <div>
             <div className={`${styles.inner_slider_text}`}>
@@ -85,7 +85,7 @@ const MainSlider = () => {
             alt="Create Shadow Service"
             width={6000}
             height={3000}
-            src="/assets/img/Slider/gvp-Create-Shadow.jpg"
+            src="/assets/img/Slider/gvp-Create-Shadow.webp"
           />
           <div>
             <div className={`${styles.inner_slider_text} `}>
@@ -109,7 +109,7 @@ const MainSlider = () => {
             alt="Photo Masking Service"
             width={6000}
             height={3000}
-            src="/assets/img/Slider/gvp-Create-Reflection.jpg"
+            src="/assets/img/Slider/gvp-Create-Reflection.webp"
           />
           <div>
             <div className={`${styles.inner_slider_text} `}>
@@ -134,7 +134,7 @@ const MainSlider = () => {
             alt="Create Reflection Service"
             width={6000}
             height={3000}
-            src="/assets/img/Slider/gvp-Photo-Masking.jpg"
+            src="/assets/img/Slider/gvp-Photo-Masking.webp"
           />
           <div>
             <div className={`${styles.inner_slider_text}  `}>
