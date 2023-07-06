@@ -18,7 +18,6 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", stickNavbar);
-    stickNavbarWithoutHomePageAddBg();
     return () => {
       window.removeEventListener("scroll", stickNavbar);
     };
@@ -27,27 +26,15 @@ const Navbar = () => {
   const stickNavbar = () => {
     let windowHeight = window.scrollY;
     if (window !== undefined && router.pathname == "/") {
-      windowHeight > 10
-        ? setStickyClass(
-            "md:flxed bg-white dark:bg-gray-800 border-b-2 dark:border-b-[1px]"
-          )
-        : setStickyClass("md:flxed");
-    }
-  };
-
-  const stickNavbarWithoutHomePageAddBg = () => {
-    if (router.pathname !== "/") {
-      setStickyClass(
-        "md:flxed bg-white  dark:bg-gray-800 border-b-2 dark:border-b-[1px]"
-      );
+      windowHeight > 10 ? setStickyClass("border-b-[1px]") : setStickyClass("");
     }
   };
 
   return (
     <div
-      className={` md:h-[72px] ${stickyClass} z-50 w-full fixed dark:text-white  ${
-        useWindowSize().width < 768 ? "bg-white" : "!dark:bg-gray-800"
-      }`}
+      className={` md:h-[72px] ${stickyClass} z-50 w-full fixed dark:text-white 
+       bg-white dark:bg-gray-800  
+      `}
     >
       <nav className={`px-4 h-[75px] pt-[10px] container mx-auto`}>
         <div className="flex items-center justify-around font-medium ">
